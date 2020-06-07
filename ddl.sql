@@ -49,8 +49,6 @@ create table ocr_bot_users
 	blocked tinyint(1) default 0 not null,
 	reason varchar(300) null,
 	create_time timestamp default CURRENT_TIMESTAMP not null,
-	allow_anonymous_chats tinyint(1) default 1 null,
-	show_anonymous_chat_button tinyint(1) default 1 null,
 	legal_entities varchar(1000) default '' null,
 	fio_full varchar(200) default '______________' null,
 	fio_short varchar(200) default '______________' null,
